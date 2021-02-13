@@ -1,25 +1,12 @@
 <template>
   <div id="app">
-    <Topbar />
-    <router-view></router-view>
-    <Footer />
+    <router-view/>
   </div>
 </template>
 
-<script>
-import Topbar from "./components/Topbar"
-import Footer from "./components/Footer"
-
-export default {
-  name: 'App',
-  components: {
-    Topbar,
-    Footer
-  },
-  methods() {
-    noScroll() {
-      
-    }
-  }
+<style>
+* {
+    margin: 0;
+    padding: 0;
 }
-</script>
+</style>

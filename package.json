@@ -1,17 +1,20 @@
 {
-  "name": "login",
+  "name": "vue-13-comfeco",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "dev/build": "vue-cli-service build --mode development"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "^4.5.11",
     "@vue/cli-service": "~4.5.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^8.0.2",
