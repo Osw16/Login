@@ -1,5 +1,5 @@
 {
-  "name": "vue-13-comfeco",
+  "name": "login",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,6 +8,7 @@
     "dev/build": "vue-cli-service build --mode development"
   },
   "dependencies": {
+    "bulma": "^0.9.2",
     "core-js": "^3.6.5",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0"

@@ -1,25 +1,32 @@
 <template>
     <div ref="skin" class="skin skin-light skin-noscroll">
-        <Topbar />
-        <div id="view-wrap" slot="view-space"></div>
-        <Footer />
+
+        <div id="view-wrap">
+            <slot name="view-space"></slot>
+        
+        </div>
+        
     </div>
 </template>
 
 <script>
 import Topbar from "./Topbar"
 import Footer from "./Footer"
+import UserForm from "@/components/UserForm.vue"
+
 
 export default {
     name: "Skin",
     components: {
         Topbar,
-        Footer
+        Footer,
+        UserForm
     }
 }
 </script>
 
 <style lang="scss">
+@import './sass/main.scss';
 #topbar {
     position: absolute;
     top: 0;
@@ -38,5 +45,10 @@ export default {
     height: 100vh;
     width: 100vw;
     overflow: hidden;
+    #view-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 </style>

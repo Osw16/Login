@@ -1,5 +1,15 @@
 <template>
     <div id="topbar">
-        Yo soy un Topbar
+
+          <div class="control">
+                    <router-link to="/login">Iniciar sesión</router-link>
+
+          </div>
     </div>
 </template>
+
+<script>
+export default {
+    name:"Topbar"
+}
+</script>
