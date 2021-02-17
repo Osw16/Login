@@ -125,7 +125,11 @@
         </div>
       </div>
     </div>
-    <h3 class="TOF">Al registrarse, usted acepta los terminos y condiciones, Politicas de privacidad y protección de datos </h3>
+    <h3 class="TOF">Al registrarse usted acepta los 
+      <router-link target="_blank" to="/SignUp">terminos y condiciones</router-link>,
+      <router-link target="_blank" to="/Policy">Politicas de privacidad</router-link> y protección de datos 
+
+    </h3>
     
 
 
